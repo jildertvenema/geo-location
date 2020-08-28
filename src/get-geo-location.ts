@@ -75,8 +75,12 @@ const getGeoLocation = (measurements: Array<Measurement>, endpoints: Array<Endpo
         best = inters
       }
     })
+
+    if (!best) {
+      console.log('COULD NOT LOCATE POSITION OF ACCES POINT: ' + bestname)
+    }
     
-    const routerPosition = best.position;
+    const routerPosition = best ? best.position : [0,0];
 
     routerPositions.push({
       endpoint: bestname,
