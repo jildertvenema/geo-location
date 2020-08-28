@@ -10,7 +10,7 @@ npm i --save geo-locate
 
 ## Usage
 
-```nodejs
+```ts
 import getGeoLocation from 'geo-locate'
 
 const previousMeasurements: Array<Measurement> // The measurements you did beforehand
