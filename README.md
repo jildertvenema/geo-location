@@ -1,17 +1,17 @@
-# Geo locate
+# Offline Geo-location
 
 Returns a calculated latitude and longitude based on your own offline measurements based on Wi-Fi access points and their signal strengths that have been converted to a distance.
 
 ## Installation
 
 ```terminal
-npm i --save geo-locate
+npm i --save offline-geo-location
 ```
 
 ## Usage
 
 ```ts
-import getGeoLocation from 'geo-locate'
+import getGeoLocation from 'offline-geo-location'
 
 const previousMeasurements: Array<Measurement> // The measurements you did beforehand
 const currentAccessPointsMeasurements: Array<Endpoint> // Your current scanned Wi-Fi access points with a distance

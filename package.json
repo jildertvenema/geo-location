@@ -1,5 +1,5 @@
 {
-  "name": "geo-locate",
+  "name": "offline-geo-location",
   "version": "1.0.0",
   "description": "Returns a calculated latitude and longitude based on your own offline measurements based on WiFi access points and their signal strengths (dBm)",
   "main": "lib/index.js",
