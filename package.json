@@ -1,6 +1,6 @@
 {
   "name": "offline-geo-location",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Returns a calculated latitude and longitude based on your own offline measurements based on WiFi access points and their signal strengths (dBm)",
   "main": "lib/index.js",
   "scripts": {
@@ -12,6 +12,10 @@
   "keywords": ["geo-location", "gps", "free", "offline", "location"],
   "author": "Jildert",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jildertvenema/geo-location"
+  },
   "dependencies": {
   },
   "devDependencies": {
