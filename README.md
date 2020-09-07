@@ -1,3 +1,6 @@
+![Downloads](https://img.shields.io/npm/dt/offline-geo-location) ![Version](https://img.shields.io/npm/v/offline-geo-location) ![Issues](https://img.shields.io/bitbucket/issues-raw/jildertvenema/offline-geo-location)
+
+
 # Offline Geo-location
 
 Returns a calculated latitude and longitude based on your own offline measurements based on Wi-Fi access points and their signal strengths that have been converted to a distance.
